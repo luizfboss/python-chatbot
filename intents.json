@@ -1,0 +1,34 @@
+{"intents":
+    [
+        {
+            "tag": "greetings",
+            "patterns": ["hello", "hi", "hey", "greetings", "what's up?", "how's it going?"],
+            "responses": ["hello", "hey", "what can i do for you?"]
+        }, 
+        {
+            "tag": "goodbye",
+            "patterns": ["cya", "see you later", "bye", "good bye", "goodbye", "I am leaving", "have a good day", "have a good one!", "catch you later!", "bye bye"],
+            "responses": ["I'll talk to you later. Have a good one!", "I will catch you later!", "See you later!", "Goodbye!", "See ya!", "It's always good to talk to you!"]
+        },
+        {
+            "tag": "age",
+            "patterns": ["how old", "how old is your owner", "what is your age", "how old are you", "age?"],
+            "responses": ["My owner Luiz is currently 19 years old!", "19 years old!"]
+        }, 
+        {
+            "tag": "name",
+            "patterns": ["what is your name?", "what should I call you?", "whats your name?", "who are you?", "can you tell me your name?"],
+            "responses": ["You can call me Neural, a modern chatbot designed as a way to practice Python Skills.", "I'm Neural, Luiz's assistant. :)"]
+        }, 
+        {
+            "tag": "shop",
+            "patterns": ["I'd like to buy something'", "what are your products?", "what do you recommend?", "what should I buy?", "buy", "I want to buy"],
+            "responses": ["Books are always a good idea of gifts or investments. Knowledge is the key to everything!"]
+        }, 
+        {
+            "tag": "hours",
+            "patterns": ["what are some of your working hours?", "can I ask you questions at any time?", "how often do you work?"],
+            "responses": ["I work 24/7. You can ask me questions at any time you need."]
+        }
+    ]
+}
